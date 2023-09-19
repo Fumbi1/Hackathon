@@ -1,0 +1,153 @@
+.nav{
+    width: 100%;
+}
+
+.nav_wrapper{
+    padding-block: 3.94rem 1.56rem;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.flare{
+    position: absolute;
+    left: -10%;
+    top: -95%;
+}
+
+.routes{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links_wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.links{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menubar{
+    display: none;
+    position: relative;
+    width: 1.4375rem;
+    height: 1.4375rem;
+}
+
+.routes2, .routes2_active{
+    display: none;
+}
+
+@media (max-width: 870px) {
+    .nav_wrapper{
+        padding-block: 2.12rem;
+        width: 90%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .flare{
+        position: absolute;
+        left: -10%;
+        top: -95%;
+    }
+    
+    .menubar{
+        display: block;
+        position: relative;
+        z-index: 5;
+        width: 1.4375rem;
+        height: 1.4375rem;
+    }
+    
+    .hide{
+        display: none;
+    }
+    
+    .show{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #903AFF;
+        border-radius: 50%;
+    }
+    
+    .menu_icon{
+        position: absolute;
+        top: 25%;
+        left: 26.25%;
+    }
+
+    .routes{
+        display: none;
+    }
+
+    .routes2{
+        position: absolute;
+        top: 0;
+        left: -5%;
+        padding: 5%;
+        transform: translateY(-100%);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        gap: 1.81rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        transition: all 750ms;
+    }
+
+
+    .links_wrapper{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .routes2_active{
+        position: absolute;
+        top: 0;
+        left: -5%;
+        padding: 5%;
+        transform: translateY(0%);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        background-color: #150E28;
+        gap: 1.81rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        transition: all 750ms;
+        z-index: 2;
+    }
+}

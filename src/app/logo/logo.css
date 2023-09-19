@@ -1,0 +1,19 @@
+.logo{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: clamp(1rem, 0.6429rem + 1.7857vw, 2.25rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo_span{
+    text-decoration: none;
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: clamp(1rem, 0.6429rem + 1.7857vw, 2.25rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
