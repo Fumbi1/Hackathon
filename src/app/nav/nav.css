@@ -1,5 +1,13 @@
 .nav{
     width: 100%;
+
+}
+
+.fixer{
+    position: fixed;
+    z-index: 50;
+    background-color: #150E28;
+    width: 100%;
 }
 
 .nav_wrapper{
@@ -45,6 +53,10 @@
     line-height: normal;
 }
 
+.unfixed{
+    display: none;
+}
+
 .menubar{
     display: none;
     position: relative;
@@ -77,9 +89,10 @@
     .menubar{
         display: block;
         position: relative;
-        z-index: 5;
+        z-index: 25;
         width: 1.4375rem;
         height: 1.4375rem;
+        
     }
     
     .hide{
@@ -103,18 +116,29 @@
         left: 26.25%;
     }
 
+    .unfixed{
+        display: block;
+    }
+
+    .fixed{
+        position: fixed;
+        right: 5%;
+        z-index: 20;
+    }
+
     .routes{
         display: none;
     }
 
     .routes2{
-        position: absolute;
+        position: fixed;
         top: 0;
-        left: -5%;
+        left: 0;
         padding: 5%;
         transform: translateY(-100%);
+        overflow: hidden;
         height: 100vh;
-        width: 100vw;
+        width: 120%;
         display: flex;
         gap: 1.81rem;
         flex-direction: column;
@@ -134,13 +158,13 @@
     }
 
     .routes2_active{
-        position: absolute;
+        position: fixed;
         top: 0;
-        left: -5%;
+        left: 0;
         padding: 5%;
         transform: translateY(0%);
         height: 100vh;
-        width: 100vw;
+        width: 120%;
         display: flex;
         background-color: #150E28;
         gap: 1.81rem;
@@ -148,6 +172,6 @@
         justify-content: center;
         align-items: flex-start;
         transition: all 750ms;
-        z-index: 2;
+        z-index: 20;
     }
 }

@@ -1,0 +1,217 @@
+.wrapper7{
+    background: #100B20;
+    padding-top: 4.62rem;
+    padding-bottom: 9.31rem;
+}
+
+.flex7{
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.champ_left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 15rem;
+    position: relative;
+}
+
+.trophy{
+    position: relative;
+    z-index: 10;
+}
+
+.flare7{
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.champ_right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.firsst{
+    width: 30%;
+    border-radius: 0.5rem;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    
+    position: relative;
+    padding-top: clamp(2.7rem, 1.4886rem + 6.0571vw, 6.94rem);
+    padding-bottom:clamp(0.44rem, 0.1914rem + 1.2429vw, 1.31rem);
+}
+
+.second{
+    width: 30%;
+    border-radius: 0.5rem;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    
+    position: relative;
+    padding-top: clamp(4.29rem, 2.8557rem + 7.1714vw, 9.31rem);
+    padding-bottom: clamp(1.44rem, 1.1914rem + 1.2429vw, 2.31rem);
+}
+
+.third{
+    width: 30%;
+    border-radius: 0.5rem;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    padding-bottom: clamp(0.44rem, 0.1914rem + 1.2429vw, 1.31rem);
+    
+    padding-top: clamp(2.7rem, 1.4886rem + 6.0571vw, 6.94rem);
+    position: relative;
+}
+
+.position{
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.3214rem + 2.1429vw, 2.25rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.run{
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.5357rem + 1.0714vw, 1.5rem);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.prize{
+    text-align: center;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.5536rem + 1.6071vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+}
+
+.same{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* from here upwards to position absolute is the code to center anything involving position absolute */
+    height:  clamp(4.77631rem, 2.9267rem + 9.2481vw, 11.25rem);
+    width: clamp(4.74981rem, 2.9105rem + 9.1967vw, 11.1875rem);
+}
+
+.diff{
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.75);
+    height:  clamp(4.77631rem, 2.9267rem + 9.2481vw, 11.25rem);
+    width: clamp(4.74981rem, 2.9105rem + 9.1967vw, 11.1875rem);
+}
+
+.gift{
+    width: 27.5%;
+    margin-left: 60%;
+    margin-bottom: 3.08rem;
+}
+
+.prizes{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rewards{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.highlights{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%;
+}
+
+@media (max-width: 1290px) {
+    .flex7{
+        width: 95%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .champ_left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 15rem;
+        position: relative;
+    }
+
+    .champ_right{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .gift{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 3.08rem;
+    }
+    
+    .prizes{
+        text-align: center;
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .rewards{
+        text-align: center;
+        color: #D434FE;
+        font-family: Clash Display;
+        font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .highlights{
+        text-align: center;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170.9%;
+    }
+
+}

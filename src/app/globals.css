@@ -12,8 +12,12 @@
 
 html, body {
   background-color: #150E28;
+  position: relative;
+  overflow-x: hidden;
 }
 
 img {
   max-width: 100%;
 }
+
+

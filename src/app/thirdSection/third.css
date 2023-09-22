@@ -1,0 +1,162 @@
+::-webkit-scrollbar {
+    width: 0;
+    display: none;
+  }
+
+.wrapper2{
+    width: 100%;
+}
+
+.flex_wrapper2{
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_left{
+    width: 40%;
+    position: relative;
+}
+
+.flex_right{
+    width: 50%;
+    position: relative;
+}
+
+.guide{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+}
+
+.alt_guide{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+}
+
+.guide_desc{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    margin-block: 1rem 12.09rem;
+}
+
+.flare3{
+    margin-top: 3.88rem;
+    position: absolute;
+    top: -60%;
+    left: 0%;
+
+}
+
+.flare4{
+    position: absolute;
+    right: -10%;
+    bottom: -50%;
+}
+
+.strR{
+    position: absolute;
+    bottom: 25%;
+    right: -10%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
+.strL{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
+@media (max-width: 1290px) {
+    .flex_wrapper2{
+        width: 95%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .flex_left{
+        width: 100%;
+        position: relative;
+    }
+    
+    .flex_right{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .flare3{
+        margin-top: 3.88rem;
+        position: absolute;
+        top: -110%;
+        left: -10%;
+    
+    }
+
+    .flare4{
+        position: absolute;
+        right: -10%;
+        bottom: -110%;
+    }
+
+    .strR{
+        position: absolute;
+        bottom: 30%;
+        left: 30%;
+        width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+        height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+    }
+    
+    .strL{
+        position: absolute;
+        top: 0%;
+        left: 90%;
+        width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+        height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+    }
+
+    .guide{
+        text-align: center;
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 133%;
+    }
+
+    .guide_desc{
+        text-align: center;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71875rem;
+        margin-block: 1rem 12.09rem;
+    }
+    
+}

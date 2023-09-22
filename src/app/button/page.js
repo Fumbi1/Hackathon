@@ -1,10 +1,10 @@
 import "./btn.css";
 import Link from "next/link";
 
-const Button = ({route, children}) => {
+const Button = ({route, closee, children}) => {
   return <div>
     <div className="btn_wrapper">
-        <Link href={route} className="link">{children}</Link>
+        <Link href={route} onClick={closee} className="link">{children}</Link>
     </div>
   </div>;
 };
