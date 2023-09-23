@@ -1,0 +1,384 @@
+.reg_page{
+    margin-block: 12.44rem 3.56rem;
+    width: 85%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reg_left{
+    width: fit-content;
+}
+
+.reg_right{
+    width: 60%;
+}
+
+.reg_form{
+    border-radius: 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-block: 4.06rem;
+}
+
+.form_content{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.f_row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_row3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.regg{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p_div{
+    margin-block: 2.88rem 1.19rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.part{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.create{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(1.25rem, 1.1786rem + 0.3571vw, 1.5rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fill{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0.69rem;
+}
+
+.field{
+    width: 100%;
+    margin-bottom: 1.81rem;
+}
+
+.inputA{
+    width: 90%;
+    border-radius: 0.25rem;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-block: 0.81rem;
+    padding-inline: 1.81rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7589rem + 0.2679vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inputA:focus{
+    outline: none;
+    border: transparent;
+}
+
+.inputC{
+    width: 90%;
+    border-radius: 0.25rem;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-block: 0.81rem;
+    padding-inline: 1.81rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7589rem + 0.2679vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+inputC:focus{
+    border-color: #007bff;
+    border-radius: 0.25rem;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+
+.inputC option{
+    background-color: #100B20;
+}
+
+.inputD{
+    width: 90%;
+    border-radius: 0.25rem;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-block: 0.81rem;
+    padding-inline: 1.81rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7589rem + 0.2679vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+inputD:focus{
+    border-color: #007bff;
+    border-radius: 0.25rem;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+
+.inputD option{
+    background-color: #100B20;
+}
+
+.review{
+    color: #FF26B9;
+    font-family: Montserrat;
+    font-size: clamp(0.5625rem, 0.5089rem + 0.2679vw, 0.75rem);
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.agree{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.625rem, 0.5893rem + 0.1786vw, 0.75rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-block: 1rem 1.38rem;
+}
+
+.conditions{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.reg_btn{
+    width: fit-content;
+    align-self: center;
+    border-radius: 0.25rem;
+    border: none;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 1.06rem 3.56rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reg_btn:disabled{
+    opacity: 0.8;
+}
+
+
+
+.modal_wrap2{
+    width: 100%;
+    background-color: rgba(21, 14, 40, 0.93);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: none;
+}
+
+
+.modal_wrap{
+    width: 100%;
+    background-color: rgba(21, 14, 40, 0.93);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 100%;
+}
+
+.modal_wrapper{
+    width: 40%;
+    margin-top: 10.44rem;
+    margin-bottom: 4rem;
+    margin-inline: auto;
+    border-radius: 0.3125rem;
+    border: 1px solid #D434FE;
+    background: rgba(255, 255, 255, 0.01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.successful{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.happy{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+
+}
+
+.modal_words{
+    margin-top: 14.87rem;
+    width: fit-content;
+}
+
+.congrats{
+    font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.success{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1.81rem;
+}
+
+.checkk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.next{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.back{
+    margin-block: 2.03rem 4.06rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    padding-block: 1.06rem;
+    border-radius: 0.25rem;
+    border: none;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+    .reg_page{
+        margin-block: 12.44rem 3.56rem;
+        width: 95%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .reg_left{
+        width: fit-content;
+        
+    }
+    
+    .reg_right{
+        width: 100%;
+    }
+
+    .p_div{
+        margin-block: 2.88rem 1.19rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+    }
+
+    .reg_form{
+        border-radius: 0.75rem;
+        background: transparent;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding-block: 4.06rem;
+    }
+    
+}

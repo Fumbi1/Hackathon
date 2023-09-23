@@ -32,13 +32,13 @@ const Nav = () => {
             <Link className="links" href="/" onClick={closeMenu}>
               FAQs
             </Link>
-            <Link className="links" href="/" onClick={closeMenu}>
+            <Link className="links" href="/ContactPage" onClick={closeMenu}>
               Contact
             </Link>
           </div>
           <div>
             <Button
-              route="/ContactPage"
+              route="/RegisterPage"
               children="Register"
               closee={closeMenu}
             />
@@ -60,12 +60,12 @@ const Nav = () => {
               <Link className="links" href="/">
                 FAQs
               </Link>
-              <Link className="links" href="/">
+              <Link className="links" href="/ContactPage">
                 Contact
               </Link>
             </div>
             <div>
-              <Button2 route="/ContactPage" children="Register" />
+              <Button2 route="/RegisterPage" children="Register" />
             </div>
           </div>
 

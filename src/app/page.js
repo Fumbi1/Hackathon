@@ -8,6 +8,7 @@ import Sixth from "./HomepageSections/sixthSection/page";
 import Seventh from "./HomepageSections/seventhSection/page";
 import Eighth from "./HomepageSections/eighthSection/page";
 import Ninth from "./HomepageSections/ninthSection/page";
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Seventh />
       <Eighth />
       <Ninth />
+      <Footer />
     </div>
   );
 }

@@ -10,9 +10,7 @@ const Contact = () => {
         message: ""
     })
 
-    const ButtonRefresh = (e) => {
-        e.preventDefault()
-    }
+
 
     const HandleChange = (e) => {
         const name = e.target.name;

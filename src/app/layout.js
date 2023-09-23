@@ -1,6 +1,5 @@
 import "./globals.css";
 import Nav from "./nav/page";
-import Footer from "./footer/page";
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +12,6 @@ export default function RootLayout({ children }) {
       <body>
         <Nav />
         {children}
-        <Footer />
       </body>
     </html>
   );
