@@ -1,3 +1,4 @@
+"use client"
 import "./btn2.css";
 import Link from "next/link";
 
