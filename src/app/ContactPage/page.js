@@ -22,7 +22,7 @@ const Contact = () => {
         });
     };
 
-    console.log(contactInfo); //this is to confirm the contents of the form
+    // console.log(contactInfo); //this is to confirm the contents of the form
 
     
     const postContact = async (e) => {

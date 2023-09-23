@@ -1,5 +1,5 @@
 import "./fourth.css";
-import Button from "../../button/page";
+import Button2 from "../../button2/page";
 import Line from "../../line/page";
 
 const Fourth = () => {
@@ -52,7 +52,7 @@ const Fourth = () => {
               or APIs, and any other competition-specific requirements.
             </p>
 
-            <Button children="Read More" route="/" />
+            <Button2 children="Read More" route="/" />
           </div>
         </div>
       </div>

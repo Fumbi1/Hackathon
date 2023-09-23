@@ -1,5 +1,5 @@
 import "./ninth.css";
-import Button from "../../button/page";
+import Button2 from "../../button2/page";
 
 const Ninth = () => {
   return (
@@ -43,7 +43,7 @@ const Ninth = () => {
                   sites, for your project developement
                 </p>
               </div>
-              <Button route="/" children="Read More" />
+              <Button2 route="/" children="Read More" />
             </div>
           </div>
           <div className="right9">

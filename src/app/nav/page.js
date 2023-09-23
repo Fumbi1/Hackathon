@@ -1,6 +1,7 @@
 "use client";
 import "./nav.css";
 import Button from "../button/page";
+import Button2 from "../button2/page";
 import Logo from "../logo/page";
 import Line from "../line/page";
 import Link from "next/link";
@@ -64,7 +65,7 @@ const Nav = () => {
               </Link>
             </div>
             <div>
-              <Button route="/ContactPage" children="Register" />
+              <Button2 route="/ContactPage" children="Register" />
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 import "./first.css";
 import Link from "next/link";
 import React from "react";
-import Button from "../../button/page";
+import Button2 from "@/app/button2/page";
 import Line from "../../line/page";
 import Logo from "../../logo/page";
 
@@ -38,7 +38,7 @@ const FirstSection = () => {
             Participate in getlinked tech Hackathon 2023 stand a chance to win a
             Big prize
           </p>
-          <Button route="/ContactPage" children="Register" />
+          <Button2 route="/ContactPage" children="Register" />
 
           <div className="timer">
             <p>
