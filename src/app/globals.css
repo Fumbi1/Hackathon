@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url("https://api.fontshare.com/v2/css?f[]=clash-display&display=swap");
 
+::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
+  scroll-behavior: smooth;
 }
 
 html, body {

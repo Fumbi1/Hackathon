@@ -46,6 +46,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: all 500ms;
+}
+
+.links:hover{
+    transform: translateY(-10px) scale(1.25);
 }
 
 .unfixed{

@@ -152,7 +152,7 @@
 }
 
 .vr{
-    height: 44.7rem;
+    height: 38.25rem;
     position: relative;
     width: 100%;
     background-blend-mode: hard-light;
@@ -324,7 +324,7 @@
     }
 
     .vr {
-        height: 44.7rem;
+        height: 38.25rem;
         position: relative;
         width: 100%;
         margin-inline: auto;
@@ -373,4 +373,13 @@
         transform: translate(0%, 0);
     }
     
+}
+
+@media (max-width: 480px){
+    .vr {
+        height: 22.64rem;
+        position: relative;
+        width: 100%;
+        margin-inline: auto;
+    }
 }

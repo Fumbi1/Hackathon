@@ -5,6 +5,11 @@
     border-radius: 0.25rem;
     background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
     padding: 1rem 3.25rem;
+    transition: all 500ms;
+}
+
+.btn_wrapper:hover{
+    transform: translateY(-10px) scale(1.125);
 }
 
 .link{

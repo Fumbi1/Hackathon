@@ -50,6 +50,30 @@
     padding-bottom:clamp(0.44rem, 0.1914rem + 1.2429vw, 1.31rem);
 }
 
+.shine1{
+    position: absolute;
+    top: -6.25%;
+    left: 10%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
+.shine2{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
+.shine3{
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
 .second{
     width: 30%;
     border-radius: 0.5rem;
@@ -213,5 +237,30 @@
         font-weight: 400;
         line-height: 170.9%;
     }
+
+    .shine1{
+        position: absolute;
+        top: -62.5%;
+        left: 10%;
+        width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+        height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+    }
+    
+    .shine2{
+        position: absolute;
+        top: -40%;
+        right: 10%;
+        width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+        height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+    }
+    
+    .shine3{
+        position: absolute;
+        right: 30%;
+        bottom: -20%;
+        width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+        height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+    }
+    
 
 }

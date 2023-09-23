@@ -15,6 +15,9 @@ const Seventh = () => {
                     <img className="flare7" src="/flare.svg" alt="" />
                 </div>
                 <div className="champ_right">
+                    <img className="shine1" src="/strR.svg" alt="" />
+                    <img className="shine2" src="/strR.svg" alt="" />
+                    <img className="shine3" src="/strL.svg" alt="" />
                     <div className="firsst">
                         <img className="same" src="/silver.svg" alt="" />
                         <p className="position">2nd</p>

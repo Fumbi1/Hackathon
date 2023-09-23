@@ -3,7 +3,7 @@ import "./register.css";
 import React, { useState } from "react";
 
 const Register = () => {
-  const [isModal, setIsModal] = React.useState(false);
+  const [isModal, setIsModal] = React.useState(false); //Modal upon sumbit
 
   const [disableBtn, setDisableBtn] = React.useState(true); //This is to toggle button disable relative to the checkbox
 
@@ -12,7 +12,7 @@ const Register = () => {
         setIsModal(false);
     }
 
-
+    //used one useState to fetch all form contents instead of calling a useState for each input
   const [regInfo, setRegInfo] = React.useState({
     //to fetch the form content
     email: "",
@@ -24,15 +24,17 @@ const Register = () => {
     privacy_poclicy_accepted: (!disableBtn),
   });
 
+
+  // I used this to update the state object with a new value
   const HandleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
+    const name = e.target.name; // to get the input field name
+    const value = e.target.value; // to get the input field value
     setRegInfo((prev) => {
-      return { ...prev, [name]: value };
+      return { ...prev, [name]: value }; // Update the state
     });
   };
 
-  console.log(regInfo)
+//   console.log(regInfo)  // I used this to confirm I could get the contents of the form
 
   const postRegistration = async (e) => {
     e.preventDefault();
@@ -47,7 +49,7 @@ const Register = () => {
     };
 
     try {
-        setDisableBtn(true);
+        setDisableBtn(true); //to prevent multiple submissions
         let res2 = await fetch(RegUrl, options);
         console.log(res2);
         setIsModal(true);
@@ -85,10 +87,13 @@ const Register = () => {
       </div>
 
       <div className="reg_page">
+        
         <div className="reg_left">
-          <img src="/reg.svg" alt="" />
+            <img className="cont_left" src="/cont_left.svg" alt="" />
+          <img className="sitter" src="/reg.svg" alt="" />
         </div>
         <div className="reg_right">
+            <img className="cont_right" src="/cont_right.svg" alt="" />
           <form className="reg_form" onSubmit={postRegistration}>
             <div className="form_content">
               <p className="regg">Register</p>
