@@ -1,7 +1,7 @@
 "use client";
 import "./nav.css";
-import Button from "../../button/page";
-import Button2 from "../../button2/page";
+import Button from "../button/page";
+import Button2 from "../button2/page";
 import Logo from "../logo/page";
 import Line from "../line/page";
 import Link from "next/link";

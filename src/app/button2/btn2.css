@@ -1,0 +1,18 @@
+.btn_wrapper{
+    position: relative;
+    z-index: 5;
+    width: fit-content;
+    border-radius: 0.25rem;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    padding: 1rem 3.25rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
