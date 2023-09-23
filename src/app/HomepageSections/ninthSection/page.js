@@ -1,5 +1,5 @@
 import "./ninth.css";
-import Button2 from "../../button2/page";
+import Button2 from "../../../../components/button2/page";
 
 const Ninth = () => {
   return (

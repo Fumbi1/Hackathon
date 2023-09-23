@@ -1,8 +1,9 @@
-"use client";
 import "./btn.css";
 import Link from "next/link";
 
 const Button = ({ route, closee, children }) => {
+
+
   return (
     <div>
       <div className="btn_wrapper">
