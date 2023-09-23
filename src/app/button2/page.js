@@ -4,6 +4,12 @@ import Link from "next/link";
 
 const Button2 = ({route, children}) => {
 
+  const routex = "/"
+  const childrenx = "Register"
+
+  route = route || routex;
+  children = children || childrenx;
+
 
   return <div>
     <div className="btn_wrapper">
