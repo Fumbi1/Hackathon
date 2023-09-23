@@ -1,10 +1,9 @@
 import "./first.css";
 import Link from "next/link";
 import React from "react";
-import Button2 from "@/app/button2/page";
+import Button2 from "@/button2/page";
 import Line from "../../line/page";
 import Logo from "../../logo/page";
-
 
 const FirstSection = () => {
   return (
