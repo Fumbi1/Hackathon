@@ -1,0 +1,211 @@
+.wrapper8{
+    width: 95%;
+    margin-inline: auto;
+}
+
+.header8{
+    width: 100%;
+    margin-top: 7.12rem;
+}
+
+.partners{
+    text-align: center;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.71875rem;
+    margin-bottom: 1.38rem;
+}
+
+.major{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+}
+
+.major2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+}
+
+.border{
+    border-radius: 0.3125rem;
+    border: 1px solid #D434FE;
+    background: rgba(255, 255, 255, 0.01);
+    margin-top: 4.06rem;
+    margin-bottom: 8rem;
+}
+
+.flex_cont1{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin-top: 9rem;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_cont2{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin-inline: auto;
+    margin-top: 3.2rem;
+    margin-bottom: 9rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1{
+    width: 30%;
+    height: 5.6rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2{
+    height: 5.6rem;
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3{
+    width: 30%;
+    height: 5.6rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4{
+    height: 5.6rem;
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5{
+    height: 5.6rem;
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6{
+    height: 5.6rem;
+    width: 30%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr1{
+    position: absolute;
+    width: 100%;
+    height: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    bottom: -25%;
+    background-color: #D434FE;
+    border: none;
+}
+
+.hr2{
+    position: absolute;
+    width: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    height: 100%;
+    right: -10%;
+    background-color: #D434FE;
+    border: none;
+}
+
+.hr3{
+    position: absolute;
+    width: 100%;
+    height: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    bottom: -25%;
+    right: -117.5%;
+    background-color: #D434FE;
+    border: none;
+}
+
+.hr4{
+    position: absolute;
+    width: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    height:  100%;
+    right: -10%;
+    background-color: #D434FE;
+    border: none;
+}
+
+.hr5{
+    position: absolute;
+    width: 100%;
+    height: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    bottom: -25%;
+    right: -235%;
+    background-color: #D434FE;
+    border: none;
+}
+
+.hr6{
+    position: absolute;
+    width: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    height:  100%;
+    right: -10%;
+    background-color: #D434FE;
+    border: none;
+}
+
+.hr7{
+    position: absolute;
+    width: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.25rem);
+    height:  100%;
+    right: -10%;
+    background-color: #D434FE;
+    border: none;
+}
+
+@media (max-width: 1000px) {
+    .flex_cont1{
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin-top: 4.5rem;
+        margin-inline: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .flex_cont2{
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin-inline: auto;
+        margin-top: 3.2rem;
+        margin-bottom: 4.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

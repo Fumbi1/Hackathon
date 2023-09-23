@@ -1,13 +1,13 @@
 .nav{
     width: 100%;
-
 }
 
 .fixer{
     position: fixed;
     z-index: 50;
-    background-color: #150E28;
+    background-color: transparent;
     width: 100%;
+    backdrop-filter: blur(5px);
 }
 
 .nav_wrapper{
@@ -21,11 +21,6 @@
     position: relative;
 }
 
-.flare{
-    position: absolute;
-    left: -10%;
-    top: -95%;
-}
 
 .routes{
     width: 60%;
@@ -68,7 +63,7 @@
     display: none;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 1000px) {
     .nav_wrapper{
         padding-block: 2.12rem;
         width: 90%;

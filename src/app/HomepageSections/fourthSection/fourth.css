@@ -1,0 +1,226 @@
+.wrapper3 {
+  width: 100%;
+  margin-bottom: 12rem;
+}
+
+.flex_wrapper3 {
+  margin-top: 4.88rem;
+  width: 95%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex3_left {
+  position: relative;
+  width: 50%;
+}
+
+.flex3_right {
+  width: 40%;
+}
+
+.header {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+
+.alt_header {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133%;
+}
+
+.body {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.5%;
+  margin-block: 1.38rem;
+}
+
+.body2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.5%;
+  margin-top: 1.38rem;
+  margin-bottom: 3rem;
+}
+
+.alt {
+  font-size: clamp(0.8125rem, 0.7589rem + 0.2679vw, 1rem);
+  color: #ff26b9;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 173.5%;
+}
+
+.svg_1 {
+  position: relative;
+  z-index: 1;
+}
+
+.svg_2 {
+  position: absolute;
+  top: -20%;
+  left: 20%;
+  width: clamp(0.5rem, 0.1071rem + 1.9643vw, 1.875rem);
+  height: clamp(0.625rem, 0.1607rem + 2.3214vw, 2.25rem);
+}
+
+.svg_3 {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+  height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
+.svg_4 {
+  position: absolute;
+  bottom: -10%;
+  right: 0%;
+  width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+  height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+}
+
+.svg_5 {
+  position: absolute;
+  top: -5%;
+  left: 12.5%;
+  z-index: 0;
+}
+
+@media (max-width: 1000px) {
+  .flex_wrapper3 {
+    margin-top: 4.88rem;
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex3_left {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex3_right {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svg_1 {
+    position: relative;
+    z-index: 1;
+  }
+
+  .svg_2 {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    width: clamp(0.5rem, 0.1071rem + 1.9643vw, 1.875rem);
+    height: clamp(0.625rem, 0.1607rem + 2.3214vw, 2.25rem);
+  }
+
+  .svg_3 {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+  }
+
+  .svg_4 {
+    position: absolute;
+    bottom: -300%;
+    right: 10%;
+    width: clamp(0.625rem, 0.3393rem + 1.4286vw, 1.625rem);
+    height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
+  }
+
+  .svg_5 {
+    display: none;
+    position: absolute;
+    top: -5%;
+    left: 12.5%;
+    z-index: 0;
+  }
+
+  .header {
+    text-align: center;
+    color: #fff;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+  }
+
+  .alt_header {
+    text-align: center;
+    color: #d434fe;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+  }
+
+  .body {
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    margin-block: 1.38rem;
+  }
+
+  .body2 {
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7946rem + 0.0893vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    margin-top: 1.38rem;
+    margin-bottom: 3rem;
+  }
+
+  .alt {
+    text-align: center;
+    font-size: clamp(0.8125rem, 0.7589rem + 0.2679vw, 1rem);
+    color: #ff26b9;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 173.5%;
+  }
+}

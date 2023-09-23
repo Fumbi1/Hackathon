@@ -1,0 +1,140 @@
+.footer{
+    width: 100%;
+    background-color: #100B20;
+    padding-block: 5rem 3.38rem;
+}
+
+.footer_wrap{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_footer{
+    width: 30%;
+}
+
+.middle_footer{
+    width: 17.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.38rem;
+}
+
+.right_footer{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.38rem;
+}
+
+.term_div{
+    margin-top: 4.22rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.tech{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+
+.termss{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+
+.ltd{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+    margin-top: 3.69rem;
+    text-align: center;
+}
+
+.useful{
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 172.4%;
+}
+
+.footer_links{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hrr{
+    background-color: #D434FE;
+    border: none;
+    width: 0.125rem;
+    height: 1.0625rem;
+}
+
+@media (max-width: 1000px) {
+    .footer_wrap{
+        width: 95%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    
+    .left_footer{
+        width: 100%;
+    }
+    
+    .middle_footer{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.38rem;
+    }
+    
+    .right_footer{
+        width: 37.5%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.38rem;
+    }
+}

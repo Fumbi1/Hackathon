@@ -1,0 +1,203 @@
+.wrapper9{
+    width: 95%;
+    margin-inline: auto;
+    margin-bottom: 10rem;
+}
+
+.header9{
+    width: 50%;
+    margin-block: 10.56rem 4.31rem;
+}
+
+.flex9{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left9{
+    width: 40%;
+}
+
+.right9{
+    width: 50%;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.policy{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.terms{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.updates{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    margin-block: 1.06rem 1.88rem;
+}
+
+.goodies{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.4%;
+}
+
+.aim{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.4%;
+}
+
+.left9_cont{
+    border-radius: 0.3125rem;
+    border: 1px solid #D434FE;
+    background: rgba(217, 217, 217, 0.03);
+    padding: 3.69rem 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.value{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%;
+}
+
+.license{
+    align-self: flex-start;
+    margin-top: 1.5rem;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: clamp(0.8125rem, 0.7589rem + 0.2679vw, 1rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+}
+
+.standard{
+    align-self: flex-start;
+    margin-bottom: 1.12rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+}
+
+.terms_div{
+    display: flex;
+    flex-direction: row;
+    gap: 0.88rem;
+    align-items: center;
+    margin-bottom: 1.12rem;
+}
+
+.exclusive{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%;
+}
+
+.openlock{
+    position: relative;
+    z-index: 2;
+}
+
+.secure{
+    position: absolute;
+    top: 17.5%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1000px) {
+    .flex9{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12rem;
+        align-items: center;
+    }
+
+    .header9{
+        width: 100%;
+        margin-block: 10.56rem 4.31rem;
+        text-align: center;
+    }
+    
+    .left9{
+        width: 100%;
+    }
+    
+    .right9{
+        width: 100%;
+        position: relative;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .secure {
+        position: absolute;
+        top: 17.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .left9_cont {
+        border-radius: 0.3125rem;
+        border: 1px solid #D434FE;
+        background: rgba(217, 217, 217, 0.03);
+        padding-block: 3.69rem;
+        padding-inline: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper9{
+        width: 95%;
+        margin-inline: auto;
+        margin-bottom: 5rem;
+    }
+}

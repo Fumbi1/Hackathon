@@ -15,12 +15,12 @@ const Nav = () => {
 
   const closeMenu = () => {
     setMenuBtn(true);
-  }
+  };
 
   return (
     <div className="fixer">
       <div className="nav">
-        <div className={menuBtn? "routes2" : "routes2_active"}>
+        <div className={menuBtn ? "routes2" : "routes2_active"}>
           <div className="links_wrapper">
             <Link className="links" href="/" onClick={closeMenu}>
               Timeline
@@ -36,13 +36,15 @@ const Nav = () => {
             </Link>
           </div>
           <div>
-            <Button route="/thirdSection" children="Register" closee={closeMenu}/>
+            <Button
+              route="/ContactPage"
+              children="Register"
+              closee={closeMenu}
+            />
           </div>
         </div>
+
         <div className="nav_wrapper">
-            <div className="flare">
-                <img src="/flare.svg" alt="e no dey" />
-            </div>
           <div>
             <Logo />
           </div>
@@ -62,23 +64,22 @@ const Nav = () => {
               </Link>
             </div>
             <div>
-              <Button route="/thirdSection" children="Register" />
+              <Button route="/ContactPage" children="Register" />
             </div>
           </div>
 
-          <div className={menuBtn? "unfixed" : "fixed"}>
+          <div className={menuBtn ? "unfixed" : "fixed"}>
             <div className="menubar" onClick={ShuffleMenuIcon}>
               <div className={menuBtn ? "hide" : "show"}></div>
-                <img
-                  src={menuBtn ? "/menu.svg" : "/x.svg"}
-                  className="menu_icon"
-                  alt=""
-                />
-              </div>
+              <img
+                src={menuBtn ? "/menu.svg" : "/x.svg"}
+                className="menu_icon"
+                alt=""
+              />
             </div>
           </div>
+        </div>
       </div>
-      
       <Line />
     </div>
   );
