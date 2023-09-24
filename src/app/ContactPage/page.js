@@ -51,15 +51,13 @@ const Contact = () => {
             let res = await fetch(ContactUrl, options);
             console.log(res);
             setSubmitText(true);
+        } catch (error) {
+            console.log(error);
+        } finally {
             setTimeout(() => {
                 setSubmitText(false);
             }, 5000);
-            
             setDisableBtn(false);
-            
-
-        } catch (error) {
-            console.log(error);
         }
     }
 

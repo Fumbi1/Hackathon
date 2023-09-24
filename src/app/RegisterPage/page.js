@@ -53,9 +53,10 @@ const Register = () => {
         let res2 = await fetch(RegUrl, options);
         console.log(res2);
         setIsModal(true);
-        setDisableBtn(false);
     } catch (error) {
         console.log(error);
+    } finally {
+      setDisableBtn(false);
     }
   };
 
