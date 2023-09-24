@@ -11,7 +11,7 @@ const Seventh = () => {
             </div>
             <div className="flex7">
                 <div className="champ_left">
-                    <img className="trophy" src="/trophy.svg" alt="" />
+                    <img loading="lazy" className="trophy" src="/trophy.svg" alt="" />
                     <img className="flare7" src="/flare.svg" alt="" />
                 </div>
                 <div className="champ_right">

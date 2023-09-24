@@ -8,7 +8,7 @@ const Fourth = () => {
       <div className="wrapper3">
         <div className="flex_wrapper3">
           <div className="flex3_left">
-            <img className="svg_1" src="/analysis.svg" alt="" />
+            <img loading="lazy" className="svg_1" src="/analysis.svg" alt="" />
             <img className="svg_2" src="/starright.svg" alt="" />
             <img className="svg_3" src="/strL.svg" alt="" />
             <img className="svg_4" src="/strR.svg" alt="" />

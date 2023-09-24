@@ -47,8 +47,8 @@ const Ninth = () => {
             </div>
           </div>
           <div className="right9">
-            <img src="/openlock.svg" alt="" className="openlock" />
-            <img src="/secure.svg" alt="" className="secure" />
+            <img loading="lazy" src="/openlock.svg" alt="" className="openlock" />
+            <img loading="lazy" src="/secure.svg" alt="" className="secure" />
           </div>
         </div>
       </div>

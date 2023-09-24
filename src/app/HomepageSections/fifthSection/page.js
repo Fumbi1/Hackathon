@@ -77,7 +77,7 @@ const Fifth = () => {
             </div>
           </div>
           <div className="right_flex">
-            <img src="/think.svg" alt="" />
+            <img loading="lazy" src="/think.svg" alt="" />
             <img className="q1" src="/que.svg" alt="" />
             <img className="q2" src="/que.svg" alt="" />
             <img className="q3" src="/que.svg" alt="" />
