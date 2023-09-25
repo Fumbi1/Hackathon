@@ -54,6 +54,7 @@ const Contact = () => {
         } catch (error) {
             console.log(error);
         } finally {
+            e.target.reset(); //Reset the form
             setTimeout(() => {
                 setSubmitText(false);
             }, 5000);
@@ -129,10 +130,11 @@ const Contact = () => {
                         <button
                         className="submit"
                         type="submit"
+                        disabled={disableBtn}
                         >
-                            Submit
+                            {disableBtn? "Loading..." : "Submit"}
                         </button>
-                        <p className={submitText? "pshow" : "pnone"} disabled={disableBtn}>Submitted</p>
+                        <p className={submitText? "pshow" : "pnone"}>Submitted</p>
                     </div>
                 </form>
             </div>

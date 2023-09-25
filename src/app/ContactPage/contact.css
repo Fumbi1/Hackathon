@@ -161,6 +161,7 @@
 
 .input1:focus {
   outline: none;
+  border: transparent;
 }
 
 .input2 {
@@ -189,6 +190,7 @@
 
 .input2:focus {
   outline: none;
+  border: transparent;
 }
 
 .input3 {
@@ -217,6 +219,7 @@
 
 .input3:focus {
   outline: none;
+  border: transparent;
 }
 
 .submit {
@@ -238,6 +241,7 @@
   line-height: normal;
   border: none;
   align-self: center;
+  transition: all 500ms;
 }
 
 .submit:disabled {

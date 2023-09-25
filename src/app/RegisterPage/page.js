@@ -56,6 +56,7 @@ const Register = () => {
     } catch (error) {
         console.log(error);
     } finally {
+      e.target.reset(); //Reset the form
       setDisableBtn(false);
     }
   };
@@ -156,7 +157,7 @@ const Register = () => {
                 </div>
               </div>
               <div className="f_row3">
-                <div className="field">
+                <div className="fieldC">
                   <label className="fill">Category</label>
                   <br />
                   <select
@@ -167,12 +168,12 @@ const Register = () => {
                     required
                   >
                     <option value="">Select your category</option>
-                    <option value="1">1</option>
-                    <option value="1">2</option>
-                    <option value="3">3</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Web">Web</option>
+                    <option value="UI/UX">UI/UX</option>
                   </select>
                 </div>
-                <div className="field">
+                <div className="fieldD">
                   <label className="fill">Group Size</label>
                   <br />
                   <select
