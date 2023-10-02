@@ -6,9 +6,17 @@ import Logo from "../logo/page";
 import Line from "../line/page";
 import Link from "next/link";
 import React, { useState } from "react";
+//import { useRouter } from "next/navigation";
+
 
 const Nav = () => {
   const [menuBtn, setMenuBtn] = React.useState(true);
+
+  // const Route = Router();
+
+  // const Locate = () => {
+  //   Route.push("/RegisterPage");
+  // }
 
   const ShuffleMenuIcon = () => {
     setMenuBtn(!menuBtn);
@@ -23,13 +31,13 @@ const Nav = () => {
       <div className="nav">
         <div className={menuBtn ? "routes2" : "routes2_active"}>
           <div className="links_wrapper">
-            <Link className="links" href="/" onClick={closeMenu}>
+            <Link className="links" href="/#timeline" onClick={closeMenu}>
               Timeline
             </Link>
-            <Link className="links" href="/" onClick={closeMenu}>
+            <Link className="links" href="/#overvieww" onClick={closeMenu}>
               Overview
             </Link>
-            <Link className="links" href="/" onClick={closeMenu}>
+            <Link className="links" href="/#FAQ" onClick={closeMenu}>
               FAQs
             </Link>
             <Link className="links" href="/ContactPage" onClick={closeMenu}>
@@ -51,13 +59,13 @@ const Nav = () => {
           </div>
           <div className="routes">
             <div className="links_wrapper">
-              <Link className="links" href="/">
+              <Link className="links" href="/#timeline">
                 Timeline
               </Link>
-              <Link className="links" href="/">
+              <Link className="links" href="/#overview">
                 Overview
               </Link>
-              <Link className="links" href="/">
+              <Link className="links" href="/#FAQ">
                 FAQs
               </Link>
               <Link className="links" href="/ContactPage">

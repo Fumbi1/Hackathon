@@ -151,6 +151,10 @@
     height: clamp(0.75rem, 0.3929rem + 1.7857vw, 2rem);
 }
 
+#timeline{
+    height: 8.75rem;
+}
+
 @media (max-width: 1000px) {
     .flex_wrap{
         width: 95%;
@@ -168,10 +172,11 @@
     }
 
     .right_flex{
-        width: 100%;
+        width: fit-content;
         position: relative;
         margin-top: 10rem;
         display: flex;
+        margin-inline: auto;
         align-items: center;
         justify-content: center;
     }

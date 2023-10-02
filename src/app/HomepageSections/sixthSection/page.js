@@ -1,4 +1,6 @@
 import "./sixth.css";
+import Transition from "@/app/Transitions/Transition/page";
+import Transition2 from "@/app/Transitions/Transition2/page";
 
 const Sixth = () => {
 
@@ -51,34 +53,50 @@ const Sixth = () => {
   return <div>
     <div className="wrapp">
 
-        <p className="timee">Timeline</p>
-        <p className="t_desc">Here is the breakdown of the time we anticipate </p>
-        <p className="t_desc2">using for the upcoming event.</p>
+        <Transition>
+            <p className="timee">Timeline</p>
+        </Transition>
+        <Transition2>
+            <p className="t_desc">Here is the breakdown of the time we anticipate </p>
+        </Transition2>
+        <Transition2>
+            <p className="t_desc2">using for the upcoming event.</p>
+        </Transition2>
         {TimeLine.map((item, index) => {
             return (
             <div className="flex_wrapp" key={index}>
                 <div className="label_div">
                     <hr className="linee"/>
-                    <div className="circle">
-                        <p className="num">{item.num}</p>
-                    </div>
+                    <Transition>
+                        <div className="circle">
+                            <p className="num">{item.num}</p>
+                        </div>
+                    </Transition>
                 </div>
                 <div className={item.desc2 == ""? "flex_div" : "flex_div2"}>
                     <div className="side_left">
-                        <p className="header1">
-                            {item.header1}
-                        </p>
-                        <p className="desc1">
-                            {item.desc1}
-                        </p>
+                        <Transition>
+                            <p className="header1">
+                                {item.header1}
+                            </p>
+                        </Transition>
+                        <Transition2>
+                            <p className="desc1">
+                                {item.desc1}
+                            </p>
+                        </Transition2>
                     </div>
                     <div className="side_right">
-                        <p className="header2">
-                            {item.header2}
-                        </p>
-                        <p className="desc2">
-                            {item.desc2}
-                        </p>
+                        <Transition>
+                            <p className="header2">
+                                {item.header2}
+                            </p>
+                        </Transition>
+                        <Transition2>
+                            <p className="desc2">
+                                {item.desc2}
+                            </p>
+                        </Transition2>
                     </div>
                 </div>
             </div>

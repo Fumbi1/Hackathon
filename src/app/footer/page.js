@@ -1,6 +1,8 @@
 import "./footer.css";
 import Logo from "../logo/page";
 import Link from "next/link";
+import Transition from "../Transitions/Transition/page";
+import Transition2 from "../Transitions/Transition2/page";
 
 const Footer = () => {
   return <div>
@@ -19,7 +21,7 @@ const Footer = () => {
                     <p className="termss">
                     Terms of Use
                     </p>
-                    <hr className="hrr"/> 
+                    <hr className="hrr"/>
                     <p className="termss">
                         Privacy Policy
                     </p>

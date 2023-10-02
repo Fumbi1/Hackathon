@@ -4,13 +4,17 @@ import React from "react";
 import Button2 from "../../button2/page";
 import Line from "../../line/page";
 import Logo from "../../logo/page";
+import Transition from "@/app/Transitions/Transition/page";
+import Transition2 from "@/app/Transitions/Transition2/page";
 
 const FirstSection = () => {
   return (
     <div className="rights">
       <div className="ignite_wrapper">
         <div className="ignite">
-          <p className="right_text">Igniting a Revolution in HR Innovation</p>
+          <Transition>
+            <p className="right_text">Igniting a Revolution in HR Innovation</p>
+          </Transition>
           <img src="/curve.svg" className="curve" alt="" />
         </div>
       </div>
@@ -21,22 +25,26 @@ const FirstSection = () => {
           </div>
           <div className="intro">
             <div className="intro_wrap">
-              <p className="intro_text">getlinked Tech</p>
+              <Transition>
+                <p className="intro_text">getlinked Tech</p>
+              </Transition>
               <img className="img4" src="/bulb.svg" alt="" />
             </div>
             <div className="intro2">
-              <p className="intro_text">
-                Hackathon <span className="alt_text">1.0</span>
-              </p>
+              <Transition>
+                <p className="intro_text">
+                  Hackathon <span className="alt_text">1.0</span>
+                </p>
+              </Transition>
               <img className="img2" src="/spark.svg" alt="" />
               <img className="img3" src="/chain.svg" alt="" />
             </div>
             <img className="img1" src="/star.svg" alt="" />
           </div>
-          <p className="desc">
-            Participate in getlinked tech Hackathon 2023 stand a chance to win a
-            Big prize
-          </p>
+            <p className="desc">
+              Participate in getlinked tech Hackathon 2023 stand a chance to win a
+              Big prize
+            </p>
           <Button2 route="/RegisterPage" children="Register" />
 
           <div className="timer">
@@ -52,11 +60,11 @@ const FirstSection = () => {
           </div>
         </div>
         <div className="first_right">
-          <div className="vr">
-            <img src="/vr_ball.svg" className="vr1" alt="" />
-            <img src="/vr_guy.svg" className="vr2" alt="" />
-            <img src="flare2.svg" className="vr3" alt="" />
-          </div>
+            <div className="vr">
+              <img src="/vr_ball.svg" className="vr1" alt="" />
+              <img src="/vr_guy.svg" className="vr2" alt="" />
+              <img src="flare2.svg" className="vr3" alt="" />
+            </div>
         </div>
       </div>
 

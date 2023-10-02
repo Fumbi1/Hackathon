@@ -1,3 +1,7 @@
+#timeline{
+    scroll-behavior: smooth;
+}
+
 .wrapp{
     width: 100%;
     position: relative;

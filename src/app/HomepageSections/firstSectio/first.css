@@ -164,8 +164,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
-    opacity: 0.9;
-    filter: brightness(150%);
 }
 
 .vr2{
@@ -176,7 +174,6 @@
     width: clamp(26.2293rem, 18.9377rem + 36.4581vw, 51.75rem);
     height: clamp(22.6497rem, 16.3532rem + 31.4826vw, 44.6875rem);
     z-index: 1;
-    background-blend-mode: luminosity;
 }
 
 .vr3{
@@ -343,8 +340,6 @@
         left: 50%;
         transform: translate(-50%, -100%);
         z-index: 3;
-        opacity: 0.9;
-        filter: brightness(150%);
     }
     
     .vr2{
@@ -355,7 +350,6 @@
         width: clamp(26.2293rem, 18.9377rem + 36.4581vw, 51.75rem);
         height: clamp(22.6497rem, 16.3532rem + 31.4826vw, 44.6875rem);
         z-index: 1;
-        background-blend-mode: luminosity;
     }
     
     .vr3{

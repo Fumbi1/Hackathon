@@ -1,5 +1,6 @@
 import "./btn.css";
 import Link from "next/link";
+import Transition2 from "../Transitions/Transition2/page";
 
 const Button = ({ route, closee, children }) => {
 
@@ -13,10 +14,12 @@ const Button = ({ route, closee, children }) => {
 
   return (
     <div>
-      <div className="btn_wrapper">
-        <Link href={route} onClick={closee} className="link">
-          {children}
-        </Link>
+      <div className="btn_wrapper" onClick={closee}>
+        <Transition2>
+          <Link href={route} className="link">
+            {children}
+          </Link>
+        </Transition2>
       </div>
     </div>
   );

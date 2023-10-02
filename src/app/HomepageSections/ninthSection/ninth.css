@@ -168,10 +168,11 @@
     }
     
     .right9{
-        width: 100%;
+        width: fit-content;
         position: relative;
         height: fit-content;
         display: flex;
+        margin-inline: auto;
         justify-content: center;
         align-items: flex-start;
     }

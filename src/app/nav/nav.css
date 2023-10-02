@@ -50,7 +50,9 @@
 }
 
 .links:hover{
-    transform: translateY(-10px) scale(1.25);
+    color: #903AFF;
+    text-decoration: underline;
+    transform: scale(0.95);
 }
 
 .unfixed{

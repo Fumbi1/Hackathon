@@ -9,7 +9,7 @@
 }
 
 .btn_wrapper:hover{
-    transform: translateY(-10px) scale(1.125);
+    transform: translate(-10px) scale(1.125);
 }
 
 .link{

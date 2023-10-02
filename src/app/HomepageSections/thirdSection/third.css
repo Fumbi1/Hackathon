@@ -101,11 +101,12 @@
     
     .flex_right{
         display: flex;
-        width: 100%;
+        width: fit-content;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
+        margin-inline: auto;
     }
 
     .flare3{

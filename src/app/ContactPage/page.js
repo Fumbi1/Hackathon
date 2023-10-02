@@ -1,6 +1,8 @@
 "use client"
 import "./contact.css";
 import React, { useState } from "react";
+import Transition from "../Transitions/Transition/page";
+import Transition2 from "../Transitions/Transition2/page";
 
 const Contact = () => {
 
@@ -61,82 +63,89 @@ const Contact = () => {
             setDisableBtn(false);
         }
     }
+    
+
 
   return <div>
     <div className="contact_wrapper">
         <div className="flex_contact">
             <div className="contact_left">
                 <img className="cont_left" src="/cont_left.svg" alt="" />
-                <p className="touch">Get in touch</p>
-                <p className="info">Contact<br/>Information</p>
-                <p className="loca">
-                27,Alara Street<br/>
-                Yaba 100012<br/>
-                Lagos State
-                </p>
-                <p className="dial">
-                Call Us : 07067981819
-                </p>
-                <p className="open">
-                we are open from Monday-Friday<br/>
-                08:00am - 05:00pm
-                </p>
-                <p className="share">Share on</p>
-                <div className="socialss">
-                    <img src="/insta.svg" alt="" />
-                    <img src="/xx.svg" alt="" />
-                    <img src="/face.svg" alt="" />
-                    <img src="/linkedin.svg" alt="" />
-                </div>
+                <Transition>
+                    <p className="touch">Get in touch</p>
+                </Transition>
+                <Transition>
+                    <p className="info">Contact<br/>Information</p>
+                    <p className="loca">
+                    27,Alara Street<br/>
+                    Yaba 100012<br/>
+                    Lagos State
+                    </p>
+                </Transition>
+                <Transition2>
+                    <p className="dial">
+                    Call Us : 07067981819
+                    </p>
+                    <p className="open">
+                    we are open from Monday-Friday<br/>
+                    08:00am - 05:00pm
+                    </p>
+                    <p className="share">Share on</p>
+                    <div className="socialss">
+                        <img src="/insta.svg" alt="" />
+                        <img src="/xx.svg" alt="" />
+                        <img src="/face.svg" alt="" />
+                        <img src="/linkedin.svg" alt="" />
+                    </div>
+                </Transition2>
             </div>
 
             <div className="contact_right">
                 <img className="cont_right" src="/cont_right.svg" alt="" />
-                <form className="form" onSubmit={postContact}>
-                    <div className="form_wrapper">
-                        <p className="assist">
-                        Questions or need
-                        assistance?
-                        Let us know about it
-                        </p>
-                        <input
-                        className="input1"
-                        type="text"
-                        placeholder="First Name"
-                        required
-                        name="first_name"
-                        onChange={HandleChange}
-                        />
-
-                        <input
-                        className="input2"
-                        type="email"
-                        placeholder="Mail"
-                        required
-                        name="email"
-                        onChange={HandleChange}
-                        />
-
-                        <textarea
-                        className="input3"
-                        rows="5"
-                        cols=""
-                        placeholder="Message"
-                        required
-                        name="message"
-                        onChange={HandleChange}
-                        />
-
-                        <button
-                        className="submit"
-                        type="submit"
-                        disabled={disableBtn}
-                        >
-                            {disableBtn? "Loading..." : "Submit"}
-                        </button>
-                        <p className={submitText? "pshow" : "pnone"}>Submitted</p>
-                    </div>
-                </form>
+                <Transition2>
+                    <form className="form" onSubmit={postContact}>
+                        <div className="form_wrapper">
+                            <p className="assist">
+                            Questions or need
+                            assistance?
+                            Let us know about it
+                            </p>
+                            <input
+                            className="input1"
+                            type="text"
+                            placeholder="First Name"
+                            required
+                            name="first_name"
+                            onChange={HandleChange}
+                            />
+                            <input
+                            className="input2"
+                            type="email"
+                            placeholder="Mail"
+                            required
+                            name="email"
+                            onChange={HandleChange}
+                            />
+                            <textarea
+                            className="input3"
+                            rows="5"
+                            cols=""
+                            placeholder="Message"
+                            required
+                            name="message"
+                            onChange={HandleChange}
+                            />
+                            <button
+                            className="submit"
+                            type="submit"
+                            disabled={disableBtn}
+                            >
+                                {disableBtn? "Loading..." : "Submit"}
+                            </button>
+                            <p className={submitText? "pshow" : "pnone"}>Submitted</p>
+                        </div>
+                    </form>
+                </Transition2>
             </div>
         </div>
     </div>

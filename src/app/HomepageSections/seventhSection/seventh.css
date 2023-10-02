@@ -186,10 +186,11 @@
     }
     
     .champ_left{
-        width: 100%;
+        width: fit-content;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
+        margin-inline: auto;
         margin-bottom: 15rem;
         position: relative;
     }
