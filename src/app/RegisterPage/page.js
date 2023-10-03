@@ -7,6 +7,8 @@ import Transition2 from "../Transitions/Transition2/page";
 const Register = () => {
   const [isModal, setIsModal] = React.useState(false); //Modal upon sumbit
 
+  const [isChecked, setIsChecked] = React.useState(false); //Confirm the state of the checkox upon sumbit
+
   const [disableBtn, setDisableBtn] = React.useState(true); //This is to toggle button disable relative to the checkbox
 
 
@@ -23,15 +25,18 @@ const Register = () => {
     group_size: "",
     project_topic: "",
     category: "",
-      privacy_poclicy_accepted: undefined ,
+      privacy_poclicy_accepted: (isChecked) ,
   });
 
-  //Toggle is to ensure the submi button only works when all the input fields have  values
+  //Toggle is to ensure the submit button only works when all the input fields have  values
   const Toggle = () => {
-    if (Object.values(regInfo).every((prop) => prop.trim() !== "")){
-      setDisableBtn(!disableBtn)
+    setIsChecked(!isChecked);
+    if (Object.values(regInfo).every((prop) => prop.trim() !== "") & isChecked === false) {
+      setDisableBtn(false);
+    } else if (Object.values(regInfo).every((prop) => prop.trim() !== "") & isChecked === true){
+      setDisableBtn(true);
     } else {
-      setDisableBtn(true)
+      setDisableBtn(true);
     }
 
     // Object.values(regInfo).forEach(property => {
@@ -53,6 +58,7 @@ const Register = () => {
     //   }
     // }
   };
+  console.log(isChecked)
 
 
   // I used this to update the state object with a new value
@@ -64,6 +70,7 @@ const Register = () => {
       return { ...prev, [name]: value }; // Update the state
     });
   };
+
 
 //   console.log(regInfo)  // I used this to confirm I could get the contents of the form
 
@@ -229,7 +236,7 @@ const Register = () => {
                     type="checkbox"
                     name="privacy_poclicy_accepted"
                     id=""
-                    value={!disableBtn}
+                    value={isChecked}
                     onClick={Toggle}
                   />
                   <label className="agree">
